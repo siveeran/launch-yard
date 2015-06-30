@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class=" js no-touch svg inlinesvg svgclippaths no-ie8compat" lang="en" ng-app="LaunchYardApp">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>We help build startups.</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="We ideate, design and develop technology for entrepreneurs, and are solely focused on startups with a successful track record we add to every day.">
+  <link rel="shortcut icon" href="http://launchyard.com/images/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="index-body">
+	<div class="mobileVersion"></div>
+    <div class="desktopVersion">
+		<div ng-include src="'./views/partials/header.html'"></div>
+		<div ng-view=""></div>
+		<div ng-include src="'./views/partials/footer.html'"></div>
+	</div>
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular-route.js"></script>
+	<script src="./scripts/app.js"></script>
+	<script src="controllers.js"></script>
+
+	<script type="text/javascript" async="" src="./launchyard_files/ga.js"></script><script src="./launchyard_files/custom.modernizr.js"></script>
+	<script src="./launchyard_files/jquery.js"></script>
+	<script src="./launchyard_files/foundation.min.js"></script>
+	<script src="./launchyard_files/main.js"></script>
+	<script src="./launchyard_files/subscribe.js"></script>
+	<script>
+		$(document).foundation();
+	</script>
+	<script src="./launchyard_files/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+	<script defer="" src="./launchyard_files/jquery.flexslider.js"></script>
+</body>
+</html>
