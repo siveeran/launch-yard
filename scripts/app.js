@@ -1,3 +1,4 @@
+// Defined module and routes configuration options
 var lyportal = angular.module('LaunchYardApp', [
 	'ngRoute'
 ])
